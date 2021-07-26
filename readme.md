@@ -100,7 +100,7 @@ The default parameter for CNN can be seen below.
 
 > For all the plots, left is the accuracy and right is the loss
 
-> Eyes
+Eyes
 
 <p align="center">
    <img src="/Plots/Sigmoid_300_15_acc.png" height="100%" width="45%">
