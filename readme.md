@@ -56,7 +56,7 @@ Once the facial features of the person are already recognized with all the 68 ke
 
 If by any chance the eye-aspect-ratio based on the calculation is lower than the threshold, it is safe to assume that the eyes are currently closed. The opposite apply also for the mouth, if the distance between the upper and lower lip is bigger than the threshold, most likely the mouth is currently open.
 
-> Run the fatigue.py file to try it.
+> Run the distance_dlib.py file to try it.
 
 ## Convolutional Neural Network
 
@@ -166,3 +166,17 @@ Mouth
 <img src="/Plots/mouth/Sigmoid_300_15_acc_64.png" height="100%" width="45%">
   <img src="/Plots/mouth/Sigmoid_300_15_loss_64.png" height="100%" width="45%">
  </p>
+
+> Run the fatigue_cnn.py file to try it.
+
+## Conclusion and thoughts
+
+Both methods can detect any fatigues expression such as eyes closed and mouth opened very well. Respectively have their pros and cons.
+
+### The Eye and Mouth Aspect Ratio
+
+The Eye and Mouth Aspect Ratio is very fast in regards that once it detects the facial expression, the calculation will be running directly and can detect if a person currently shows any symptoms of tiredness. Dlib is a great Toolkit/library to use out of the box without having to train an additional model and preparing the datasets from scratch.
+
+### Convolutional neural network
+
+The Convolutional neural network on the other hand gives more room to properly tune the model, prepare a good dataset and train the model to the desired goal.
