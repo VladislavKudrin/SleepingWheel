@@ -99,7 +99,7 @@ The default parameter for CNN can be seen below.
 #### Result with the default parameters:
 
 > For all the plots, left is the accuracy and right is the loss
->
+
 > Eyes
 
 <p align="center">
